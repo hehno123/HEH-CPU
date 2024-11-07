@@ -148,6 +148,11 @@ int main(int argc, char* argv[])
 		char* comments_out = strtok(line, "#");
 		char* buf = strtok(comments_out, " \t,\n");
 
+		if(strlen(line) > 0 && line[0] == '#')
+		{
+			continue;
+		}
+
 		while(buf != NULL)
 		{
 			if(strlen(buf) != 0)
