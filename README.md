@@ -9,6 +9,7 @@
   5. I/O operations are not supported yet
   6. System has 8, 16 bit register A, B, C, D, E, F, G, H. They haven't any special purpose
   7. 16 bit address bus
+  8. Big endian
 
 ## ISA
   ```
@@ -44,6 +45,10 @@
 ```
 
 ## Assembler
+  ./assembler [input_file] [output_file (optional)]
+  	- if output file is not specified, it generates output.bin file
+   	- output is in system's endianness
+    
   Assembler is written in C and it's very straightforward.
 
   ```assembly
