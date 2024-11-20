@@ -1,6 +1,7 @@
 # HEH-CPU
   Simple 16 bit CPU, done entirely in logisim
-  
+  ![image](https://github.com/user-attachments/assets/02f6def9-a228-43de-addc-dc598832ba18)
+
 ## Overall design
   1. 16 bit CPU
   2. Simple pipelining system
